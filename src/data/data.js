@@ -22,7 +22,7 @@ export const data=[
         name:"React JS Application",
         image:signup,
         github:"https://github.com/Efoneli/countdown-timer",
-        live:"https://countdown-timer-eta-nine.vercel.app/",
+        live:"https://countdown-timer-eta-nine.vercel.app/signup",
     },
     // {
        // id:4,

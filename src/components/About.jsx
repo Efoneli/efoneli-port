@@ -17,11 +17,12 @@ const About = () => {
               <p>Hi. I'm Abba Efoneli Sarah, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What project would you build if you had
-              a software expert available at your fingertips?</p>  
+              <p>Hi, I'm Efoneli, and I graduated from Federal University of Technology Minna in 2021 with a degree in Telecommunication Engineering.<br /> My interests are in Front End Engineering, and I love to create beautiful and responsive web interfaces for delightful user experiences.<br />
+
+                I previously worked with colleagues, where we built great interfaces. I'm also a HNG9 participant, where we collaborated by working on team projects.<br />
+
+                I'm interested in the Front End Developer intern position at your company because I like working in this ridesharing space and creating products to improve the lives of users while growing and learning new things.
+</p>  
             </div>
           </div>
       </div>
