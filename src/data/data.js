@@ -1,6 +1,8 @@
 import imageGal from '../assets/imageGal.jpeg'
 import todo from '../assets/todo.jpeg'
 import signup from '../assets/signup.jpeg'
+import starfinder from '../assets/starfinder.jpeg'
+
 
 export const data=[
     {
@@ -17,6 +19,15 @@ export const data=[
         github:"https://github.com/Efoneli/ToDo-App-with-Local-Storage",
         live:"https://flourishing-beijinho-feb335.netlify.app/",
     },
+
+    {
+        id:4,
+        name:"React JS Application",
+        image:starfinder,
+        github:"https://github.com/workshopapps/vipcustomer.web",
+        live:"https://starfinder.dev/",
+    },
+
     {
         id:3,
         name:"React JS Application",
@@ -24,13 +35,8 @@ export const data=[
         github:"https://github.com/Efoneli/countdown-timer",
         live:"https://countdown-timer-eta-nine.vercel.app/signup",
     },
-    // {
-       // id:4,
-       // name:"React JS Application",
-       // image:RealEst,
-       // github:"",
-       // live:"",
-   // },
+
+    
 
 
 ]
