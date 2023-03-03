@@ -7,9 +7,9 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-[#0a192f]">
       <Navbar />
-      <div className="mt-10 pt-10">
+      <div className="mt-10 pt-20">
       {/* my-20 py-20 */}
         <Home />
       </div>

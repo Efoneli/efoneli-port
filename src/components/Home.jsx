@@ -7,7 +7,7 @@ const Home = () => {
     <div name='home' className='w-full bg-[#0a192f]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-pink-600'>Hello, my name is</p>
+        <p className='text-pink-600 text-2xl'>Hello, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           ABBA EFONELI SARAH
         </h1>
@@ -20,7 +20,7 @@ const Home = () => {
           building responsive frontend web applications.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center rounded hover:bg-pink-600 hover:border-pink-600'>
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center rounded-lg mb-10 hover:bg-pink-600 hover:border-white'>
 
           <Link to='work' smooth={true} duration={500}>
             View Work
