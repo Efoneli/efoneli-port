@@ -7,21 +7,22 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col">
       <Navbar />
-      <div className="my-20 py-20">
+      <div className="">
+      {/* my-20 py-20 */}
         <Home />
       </div>
-      <div>
+      <div className="">
         <About />
       </div>
-      <div className="mb-50">
+      <div className="">
         <Skills />
       </div>
-      <div className="py-20">
+      <div className="">
         <Work />
       </div>
-      <div>
+      <div className="">
         <Contact />
       </div>
     </div>
