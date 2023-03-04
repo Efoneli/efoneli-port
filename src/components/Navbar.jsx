@@ -17,8 +17,9 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <p style={{ width: '200px' }} className='efoneli text-2xl font-bold hover:scale-110'>efoneli</p>
-        
+      <Link to='about' smooth={true} duration={500}>
+        <p style={{ width: '200px' }} className='efoneli text-white text-2xl font-bold cursor-pointer hover:scale-110'>efoneli</p>
+        </Link>
       </div>
 
       {/* menu */}
