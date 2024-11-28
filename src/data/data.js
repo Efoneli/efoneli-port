@@ -51,7 +51,13 @@ export const data=[
         github:"https://github.com/Efoneli/meta-task",
         live:"https://meta-task-chi.vercel.app/",
     },
-
+    {
+        id:6,
+        name:"React JS Application",
+        image:meta,
+        github:"https://github.com/Efoneli/meta-task",
+        live:"https://meta-task-chi.vercel.app/",
+    },
     
 
 

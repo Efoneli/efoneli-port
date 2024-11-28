@@ -6,6 +6,47 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import Nest from "../assets/nest.jpg";
+import Next from "../assets/next.png";
+
+const skills = [
+  {
+    image: HTML,
+    name: 'HMTL',
+  },
+  {
+    image: CSS,
+    name: 'CSS',
+  },
+  {
+    image: HTML,
+    name: 'HMTL',
+  },
+  {
+    image: JavaScript,
+    name: 'JAVASCRIPT',
+  },
+  {
+    image: ReactImg,
+    name: 'REACT JS',
+  },
+  {
+    image: GitHub,
+    name: 'GITHUB',
+  },
+  {
+    image: Tailwind,
+    name: 'TAILWIND CSS',
+  },
+  {
+    image: Next,
+    name: 'NEXTJS',
+  },
+  {
+    image: Nest,
+    name: 'NESTJS',
+  },
+]
 
 const Skills = () => {
   return (
@@ -20,30 +61,12 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 cursor-pointer">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
-            <p className="my-4">JAVASCRIPT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
-            <p className="my-4">REACT JS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
-            <p className="my-4">GITHUB</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND CSS</p>
-          </div>
+          {skills.map((skill, i) => (
+            <div key={i} className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={skill.image} alt="icon" />
+              <p className="my-4">{skill.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

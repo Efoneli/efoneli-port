@@ -21,21 +21,12 @@ const About = () => {
           </div>
           <div>
             <p>
-              Hi, I'm Efoneli, and I graduated from Federal University of
-              Technology Minna in 2021 with a degree in Telecommunication
-              Engineering.
-              <br /> My interests are in Front End Engineering, and I love to
-              create beautiful and responsive web interfaces for delightful user
-              experiences.
+              I'm a Frontend Developer with 3+ years of experience specializing in Next.js, ReactJs, and NestJS. My focus is on building high-performance, scalable web applications with a strong emphasis on user experience and accessibility.
+              <br /> I&apos;ve worked with fintech companies to develop content-driven platforms, including dashboards and responsive user interfaces, enhancing performance and user engagement. My toolkit also includes Tailwind CSS for efficient styling and GitHub for collaborative workflows.
               <br />
-              I previously worked with colleagues, where we built great
-              interfaces. I'm also a HNG9 finalist, where we collaborated by
-              working on projects and delivered a working product in a
-              stipulated amount of time.
+              I thrive on solving problems, optimizing for SEO, and delivering pixel-perfect designs. Beyond coding, I stay current with tech trends, contribute to open-source projects, and enjoy experimenting with new design patterns.
               <br />
-              I'm currently building web apps using React JS and mostly tailwind
-              CSS and learning Next JS and Typescript by the side I'm also
-              looking for an front end entry role to put my skills to use.
+              I’m eager to bring my skills to a team where I can take ownership of frontend projects and contribute to building impactful digital experiences.
             </p>
           </div>
         </div>
