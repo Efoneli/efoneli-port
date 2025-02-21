@@ -61,8 +61,5 @@ export const data=[
         image:resort,
         github:"https://github.com/Efoneli/careHub.git",
         live:"https://telecare-hub.vercel.app/",
-    }, 
-            
-
-
+    },
 ]
