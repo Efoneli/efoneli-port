@@ -19,10 +19,6 @@ const skills = [
     name: 'CSS',
   },
   {
-    image: HTML,
-    name: 'HMTL',
-  },
-  {
     image: JavaScript,
     name: 'JAVASCRIPT',
   },

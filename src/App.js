@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Company from "./components/Company";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -19,8 +21,14 @@ function App() {
       <div className=" border-t-2 border-gray-400">
         <Skills />
       </div>
+       <div className=" border-t-2 border-gray-400">
+        <Experience />
+      </div>
       <div className=" border-t-2 border-gray-400">
         <Work />
+      </div>
+       <div className=" border-t-2 border-gray-400">
+        <Company />
       </div>
       <div className=" border-t-2 border-gray-400">
         <Contact />
