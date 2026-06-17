@@ -9,9 +9,9 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div className="flex flex-col bg-[#0a192f]">
+    <div className="flex flex-col bg-[#061327]">
       <Navbar />
-      <div className="mt-10 pt-20">
+      <div className="pt-20">
       {/* my-20 py-20 */}
         <Home />
       </div>
@@ -27,9 +27,9 @@ function App() {
       <div className=" border-t-2 border-gray-400">
         <Work />
       </div>
-       <div className=" border-t-2 border-gray-400">
+       {/* <div className=" border-t-2 border-gray-400">
         <Company />
-      </div>
+      </div> */}
       <div className=" border-t-2 border-gray-400">
         <Contact />
       </div>
