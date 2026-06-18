@@ -129,7 +129,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://eu.docworkspace.com/d/sIILBtN-9Ac7Bk5wG?sa=e1&st=0'
+              href='https://docs.google.com/document/d/1GL3NsmP1QB1Zzay8NfGgEJ5vi1knC5ojrLb7bJzLeMA/edit?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -169,7 +169,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://eu.docworkspace.com/d/sIILBtN-9Ac7Bk5wG?sa=e1&st=0'
+              href='https://docs.google.com/document/d/1GL3NsmP1QB1Zzay8NfGgEJ5vi1knC5ojrLb7bJzLeMA/edit?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
