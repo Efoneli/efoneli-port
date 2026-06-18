@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaLinkedin,
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import './Navbar.css';
@@ -17,8 +16,8 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-      <Link to='about' smooth={true} duration={500}>
-        <p style={{ width: '200px' }} className='efoneli text-white text-2xl font-bold cursor-pointer hover:scale-110'>efoneli</p>
+        <Link to='about' smooth={true} duration={500}>
+          <p style={{ width: '200px' }} className='efoneli text-white text-2xl font-bold cursor-pointer hover:scale-110'>efoneli</p>
         </Link>
       </div>
 
@@ -100,24 +99,24 @@ const Navbar = () => {
         </li>
 
         <div className=' lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/abba-efoneli-082a421b6/'
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/efoneli'
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <ul>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://www.linkedin.com/in/abba-efoneli-082a421b6/'
+              >
+                Linkedin <FaLinkedin size={30} />
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://github.com/efoneli'
+              >
+                Github <FaGithub size={30} />
+              </a>
+            </li>
+            {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://efonelisarah@gmail.com
@@ -126,16 +125,16 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li> */}
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://docs.google.com/document/d/1GL3NsmP1QB1Zzay8NfGgEJ5vi1knC5ojrLb7bJzLeMA/edit?usp=sharing'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://docs.google.com/document/d/1GL3NsmP1QB1Zzay8NfGgEJ5vi1knC5ojrLb7bJzLeMA/edit?usp=sharing'
+              >
+                Resume <BsFillPersonLinesFill size={30} />
+              </a>
+            </li>
+          </ul>
+        </div>
       </ul>
 
       {/* Social icons */}
