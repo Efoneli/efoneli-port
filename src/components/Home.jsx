@@ -38,17 +38,29 @@ const Home = () => {
           building responsive frontend web applications.
         </p>
 
-        <div style={fadeUp(700)}>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center rounded-lg mb-10 hover:bg-pink-600 hover:border-white'>
-            <Link to='work' smooth={true} duration={500}>
-              View Work
+        <div className='flex gap-4 sm:gap-2'>
+          <div style={fadeUp(700)}>
+            <Link to='experience' smooth={true} duration={500}>
+              <button className='text-white group border-2 px-3 py-3 my-2 flex items-center rounded-lg mb-10 hover:bg-pink-600 hover:border-white'>
+                View professional experience
+                <span className='group-hover:rotate-90 duration-300'>
+                  <HiArrowNarrowRight className='ml-3' />
+                </span>
+              </button>
             </Link>
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3' />
-            </span>
-          </button>
-        </div>
+          </div>
 
+          <div style={fadeUp(700)}>
+            <Link to='experience' smooth={true} duration={500}>
+              <button className='text-white group border-2 px-3 py-3 my-2 flex items-center rounded-lg mb-10 hover:bg-pink-600 hover:border-white'>
+                View Work
+                <span className='group-hover:rotate-90 duration-300'>
+                  <HiArrowNarrowRight className='ml-3' />
+                </span>
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

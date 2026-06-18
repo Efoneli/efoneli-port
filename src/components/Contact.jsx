@@ -21,18 +21,20 @@ const Contact = () => {
   }
 
   return (
-    <div name='contact' className='w-full bg-[#0a192f] flex justify-center items-center'>
+          <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full'>
+    <div name='contact' className='flex justify-center items-center'>
         <form onSubmit={(e) => Submit(e)} className='form flex flex-col max-w-[600px] w-full'>
             <div className='py-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-600'>Contact</p>
                 <p className='text-gray-300 py-4'>Submit the form below or send me an email -<span className='font-2xl text-pink-600 cursor-pointer hover:text-pink-400'> efonelisarah@gmail.com</span></p>
             </div>
-            <input className='bg-[#ccd6f6] p-2 rounded-lg' type="text" placeholder='Name' name='Name' />
-            <input className='my-4 p-2 bg-[#ccd6f6] rounded-lg' type="email" placeholder='Email' name='Email' />
-            <textarea className='bg-[#ccd6f6] p-2 rounded-lg' name="Message" rows="5" placeholder='Message'>
+            <input className='text-gray-700 p-2 rounded-lg' type="text" placeholder='Name' name='Name' />
+            <input className='my-4 p-2 text-gray-700 rounded-lg' type="email" placeholder='Email' name='Email' />
+            <textarea className='text-gray-700 p-2 rounded-lg' name="Message" rows="5" placeholder='Message'>
             </textarea>
             <button className='text-gray-300 border-2 border-pink-600 rounded-lg w-full text-center hover:bg-pink-600 hover:border-gray-200 px-4 py-3 my-8 mx-auto flex items-center'>Send</button>
         </form>
+    </div>
     </div>
   )
 }

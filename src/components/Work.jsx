@@ -62,19 +62,19 @@ const Work = () => {
                 className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto gap-4 content-div"
               >
                 <div className="opacity-0 group-hover:opacity-100">
-                  <span className="text-2xl font-bold text-white tracking-wider">
+                  <span className="p-4 text-base font-bold text-white tracking-wider">
                     {item.name}
                   </span>
                   <div className="pt-8 text-center">
                     {/* eslint-disable-next-line */}
                     <a href={item.github} target="_blank">
-                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      <button className="text-center rounded-lg p-2 m-1 bg-white text-gray-700 font-bold text-base">
                         Code
                       </button>
                     </a>
                     {/* eslint-disable-next-line */}
                     <a href={item.live} target="_blank">
-                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      <button className="text-center rounded-lg p-2 m-1 bg-white text-gray-700 font-bold text-base">
                         Live
                       </button>
                     </a>
