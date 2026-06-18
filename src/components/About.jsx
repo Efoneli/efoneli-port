@@ -52,12 +52,13 @@ const About = () => {
           {/* Right — bio text */}
           <div style={fadeUp(300)}>
             <p>
-              I'm a Frontend Developer with 3+ years of experience specializing in Next.js, ReactJs, and NestJS. My focus is on building high-performance, scalable web applications with a strong emphasis on user experience and accessibility.
-              <br /> I&apos;ve worked with fintech companies to develop content-driven platforms, including dashboards and responsive user interfaces, enhancing performance and user engagement. My toolkit also includes Tailwind CSS for efficient styling and GitHub for collaborative workflows.
-              <br />
-              I thrive on solving problems, optimizing for SEO, and delivering pixel-perfect designs. Beyond coding, I stay current with tech trends, contribute to open-source projects, and enjoy experimenting with new design patterns.
-              <br />
-              I'm eager to bring my skills to a team where I can take ownership of frontend projects and contribute to building impactful digital experiences.
+              Software Engineer with 3+ years building scalable, production-grade web applications across fintech and healthtech. I specialize in React, Next.js, and TypeScript — with a track record of shipping performant, accessible interfaces that hold up at scale.
+              <br /><br />
+              I'm comfortable across the full frontend stack — from architecting reusable component systems, to integrating GraphQL APIs, managing state with Zustand, and visualizing complex data with Chart.js and Recharts. On the backend side, I've built full-stack systems with NestJS, PostgreSQL, and Supabase, and shipped Auth0-based authentication with role-based access control.
+              <br /><br />
+              I've also volunteered as a frontend mentor with Django Girls Abuja and the eHA Academy.
+              <br /><br />
+              I'm currently open to roles where I can own frontend architecture, collaborate with product and design, and build things people actually use.
             </p>
           </div>
 

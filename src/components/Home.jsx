@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 const LINES = [
   { text: "Hello, my name is", className: "text-pink-600 text-2xl", delay: 0 },
   { text: "ABBA EFONELI SARAH", className: "text-4xl sm:text-7xl font-bold text-[#ccd6f6]", delay: 600 },
-  { text: "I'm a Front End Developer.", className: "text-4xl sm:text-7xl font-bold text-[#8892b0]", delay: 1400 },
+  { text: "I'm a Software Engineer.", className: "text-4xl sm:text-7xl font-bold text-[#8892b0]", delay: 1400 },
 ];
 
 const useTypingEffect = (text, startDelay, speed = 45) => {
@@ -82,7 +82,6 @@ const Home = () => {
           />
         ))}
 
-        {/* Bio + button — fade in after typing finishes */}
         <p
           className='text-[#8892b0] py-4 max-w-[700px]'
           style={{
