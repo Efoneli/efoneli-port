@@ -90,9 +90,8 @@ const Home = () => {
             transition: 'opacity 0.6s ease, transform 0.6s ease',
           }}
         >
-          I'm a front-end developer specialized in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
-          building responsive frontend web applications.
+          I'm a Software Engineer specialized in building exceptional digital experiences. Currently, I'm focused on
+          building responsive and performant web applications.
         </p>
 
         <div
