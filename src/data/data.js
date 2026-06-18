@@ -25,7 +25,7 @@ export const data=[
     },
     {
         id:3,
-        name:"Movie app using React and mdn api",
+        name:"Movie app using React and Tmdb api",
         image:movie,
         github:"https://github.com/Efoneli/movie-app.git",
         live:"https://movie-app-efoneli.vercel.app/",

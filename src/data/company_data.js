@@ -18,6 +18,7 @@ export const data = [
     description: [
       "Built scalable frontend architecture for RunShifts workforce scheduling platform using Next.js and Tailwind CSS.",
       "Integrated REST APIs with React Query, improving data fetching and caching efficiency by 35%.",
+      "Built data visualization dashboards with Chart.js and reduced load time by 30% through optimization.",
       "Implemented real-time shift updates and performance tuning (memoization, lazy loading) for measurable load-time improvements.",
       "Collaborated on secure API integration and CI/CD pipeline deployments.",
     ],
@@ -30,9 +31,11 @@ export const data = [
     role: "Frontend Developer",
     description: [
       "Designed high-performance fintech UIs using Next.js and Tailwind CSS.",
+      "Reduced application load time significantly through asset optimisation, caching, and code splitting",
       "Worked using headless WordPress and Supabase for secure data management.",
-      "Built data visualization dashboards with Chart.js and reduced load time by 30% through optimization.",
-      "Improved accessibility (WCAG compliance) and integrated WPGraphQL and Supabase for secure financial data flow.",
+      "Built modular UI components for easy code reading and use.",
+      "Integrated WPGraphQL and Supabase for secure storage.",
+      "Collaborated with backend team for secure API integration and CI/CD pipeline deployments.",
     ],
     live: "https://ivory.finance",
   },
