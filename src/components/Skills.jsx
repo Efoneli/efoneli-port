@@ -8,6 +8,7 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Nest from "../assets/nest.jpg";
 import Next from "../assets/next.png";
+import Wordpress from "../assets/wordpress.jpg";
 
 const skills = [
   { image: ReactImg, name: 'REACT JS' },
@@ -18,6 +19,7 @@ const skills = [
   { image: Tailwind, name: 'TAILWIND CSS' },
   { image: HTML, name: 'HTML' },
   { image: CSS, name: 'CSS' },
+  { image: Wordpress, name: 'Wordpress' },
 ];
 
 const Skills = () => {
