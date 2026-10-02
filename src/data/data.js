@@ -6,12 +6,19 @@ import country from '../assets/country.jpeg';
 import shop from '../assets/shop.jpeg';
 
 export const data=[
-      {
+    //   {
+    //     id:1,
+    //     name:"Blog app with Next and Supabase",
+    //     image:blog,
+    //     github:"https://github.com/Efoneli/careHub.git",
+    //     live:"https://telecare-hub.vercel.app/",
+    // },
+       {
         id:1,
-        name:"Blog app with Next and Supabase",
+        name:"Real estate modern website that loads in less than 1 second, ranks on google and sends enquiries directly to Whatsapp.",
         image:blog,
-        github:"https://github.com/Efoneli/careHub.git",
-        live:"https://telecare-hub.vercel.app/",
+        github:"https://github.com/Efoneli/abujahomes.git",
+        live:"https://abujahomes.vercel.app/",
     },
     {
         id:2,

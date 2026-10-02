@@ -22,9 +22,9 @@ function App() {
       <div className=" border-t-2 border-gray-400">
         <Experience />
       </div>
-      <div className=" border-t-2 border-gray-400">
+      {/* <div className=" border-t-2 border-gray-400">
         <Work />
-      </div>
+      </div> */}
       <div className=" border-t-2 border-gray-400">
         <Contact />
       </div>
